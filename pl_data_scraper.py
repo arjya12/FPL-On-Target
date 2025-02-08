@@ -200,7 +200,6 @@ def get_team_data(top, end, text):
     df = df.loc[:, ~df.columns.duplicated()]
     return df
 
-#This cell is to get the data FOR all teams in any competition
 
 #Go to the 'Standard stats' page of the league
 #For Premier League 2020/21, the link is this: https://fbref.com/en/comps/9/stats/Premier-League-Stats
@@ -214,7 +213,6 @@ files.download('PL2021_teams.csv')
 
 df_team
 
-#This cell is to get the outfield player data for any competition
 
 #Go to the 'Standard stats' page of the league
 #For Premier League 2020/21, the link is this: https://fbref.com/en/comps/9/stats/Premier-League-Stats
